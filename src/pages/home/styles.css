@@ -40,3 +40,18 @@
 .back-link:hover{
     filter: opacity(80%);
 }
+
+.fundo-verde{
+    background-color: aquamarine;
+}
+.fundo-texto{
+    background-color: rgb(75, 133, 110);
+}
+.fundo-cinza{
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.text-bg-dark {
+    color: #fff!important;
+    background-color: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;
+}
