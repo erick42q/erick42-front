@@ -12,16 +12,16 @@ export default function Header() {
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">sobre</a>
+                                <a class="nav-link" href="/sobre">sobre</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">projetos</a>
+                                <a class="nav-link disabled" href="/#">projetos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled">Login</a>
+                                <a class="nav-link disabled" href="/#">Login</a>
                             </li>
                         </ul>
                     </div>
