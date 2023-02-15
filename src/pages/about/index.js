@@ -3,9 +3,11 @@ import React from 'react'
 import './styles.css'
 
 
-import perfilredondo from "../../assets/perfilredondo.png"
 
-export default function About() {
+
+export default function About({ user }) {
+
+
     return (
         <div>
             <div>
@@ -13,12 +15,12 @@ export default function About() {
                     <div class="col">
                         <div class="row mb-3 mt-5">
                             <div>
-                                <img class="" src={perfilredondo} alt="" width="130" height="130" />
+                                <img class="" src={user.urlPerfil} alt="" width="130" height="130" />
                             </div>
                         </div>
                         <div class="row">
-                            <h1>Erick</h1>
-                            <h1>Queiroz</h1>
+                            <h1>{user.first_name}</h1>
+                            <h1>{user.last_name}</h1>
                         </div>
                     </div>
                 </div>

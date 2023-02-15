@@ -18,7 +18,7 @@ export default function Header() {
                                 <a class="nav-link" href="/sobre">sobre</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="/#">projetos</a>
+                                <a class="nav-link" href="/portifolio">projetos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link disabled" href="/#">Login</a>
