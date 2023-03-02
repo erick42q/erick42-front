@@ -11,22 +11,22 @@ export default function About({ user }) {
     return (
         <div>
             <div>
-                <div class="row mb-5">
-                    <div class="col">
-                        <div class="row mb-3 mt-5">
+                <div className="row mb-5">
+                    <div className="col">
+                        <div className="row mb-3 mt-5">
                             <div>
-                                <img class="" src={user.urlPerfil} alt="" width="130" height="130" />
+                                <img className="" src={user.urlPerfil} alt="" width="130" height="130" />
                             </div>
                         </div>
-                        <div class="row">
+                        <div className="row">
                             <h1>{user.first_name}</h1>
                             <h1>{user.last_name}</h1>
                         </div>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-6 offset-3">
+                <div className="row">
+                    <div className="col-6 offset-3">
                         {/* <h1>$ whoami</h1> */}
                         <p></p>
                         <p>
@@ -43,7 +43,6 @@ export default function About({ user }) {
                         <h2>Contato:</h2>
                         <p>
                             erick42q@gmail.com<br />
-                            61 98178-6774<br />
                             <a href='https://linkedin.com/in/erick42/'>https://linkedin.com/in/erick42/</a>
 
                         </p>

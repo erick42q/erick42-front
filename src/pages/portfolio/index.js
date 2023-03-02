@@ -26,15 +26,15 @@ export default function Portifolio() {
         }
     }
     return (
-        <div class='row' style={{ paddingBottom: "100px" }}>
-            <div class='col-1'></div>
-            <div class='col-10'>
+        <div className='row' style={{ paddingBottom: "100px" }}>
+            <div className='col-1'></div>
+            <div className='col-10'>
                 <ItemPortifolio exp={exp.configr} />
 
                 <ItemPortifolio exp={exp.gestaods} />
                 <ItemPortifolio exp={exp.teste3} />
             </div>
-            <div class='col-1'></div>
+            <div className='col-1'></div>
         </div>
     )
 }

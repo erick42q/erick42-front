@@ -1,32 +1,62 @@
-import React from 'react'
+import { React, useState } from 'react'
+import { Link } from 'react-router-dom';
+
+
+
+
+
+
+
 
 export default function Header() {
+
+    const [activeItem, setActiveItem] = useState(null)
+
+    function Item(props) {
+        let navLink = 'nav-link '
+
+        if (props.children !== "Login") {
+            navLink += props.isActive
+        }
+
+        // alert(props.isActive)
+
+        let urlTo = props.children
+
+        if (urlTo === "Home") {
+            urlTo = ""
+        }
+
+        return (
+            <li className="nav-item">
+                <Link onClick={() => { setActiveItem(props.children.toLowerCase()) }} className={navLink} to={"/" + urlTo.toLowerCase()}>{props.children}</Link>
+            </li>
+        )
+    }
+
+
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div className="container-fluid">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
                         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/sobre">sobre</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/portifolio">projetos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="/#">Login</a>
-                            </li>
+                    <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <Item isActive={activeItem === 'home' ? 'active' : ''} >Home</Item>
+                            <Item isActive={activeItem === 'sobre' ? 'active' : ''} >Sobre</Item>
+                            <Item isActive={activeItem === 'portifolio' ? 'active' : ''} >Portifolio</Item>
+                            {/* <Item isActive={activeItem === 'login' ? 'active' : ''} >Login</Item> */}
                         </ul>
+
                     </div>
-                </div>
-            </nav>
+                </div >
+            </nav >
         </div >
     )
 }
+
+

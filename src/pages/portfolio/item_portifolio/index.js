@@ -15,12 +15,12 @@ export default function ItemPortifolio({ exp }) {
                     </div>
                     <div className='col-5 media' style={{ textAlign: "left" }}>
 
-                        <div class="media-heading" >
+                        <div className="media-heading" >
                             <h4>{exp.name}</h4>
                         </div>
                     </div>
                     <div className='col-4 media' style={{ textAlign: "left", alignSelf: "flex-end", padingTop: "10px" }}>
-                        <div class="media-content" style={{
+                        <div className="media-content" style={{
                             textAlign: "right",
                             paddingTop: "10px",
                             paddingBottom: "5px",
