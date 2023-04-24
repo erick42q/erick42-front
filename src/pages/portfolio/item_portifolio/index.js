@@ -11,12 +11,12 @@ export default function ItemPortifolio({ exp }) {
                 <div className='row' style={{ paddingTop: "20px", padding: "10px", }}>
                     {/* <div className='col-1 ' style={{}}></div> */}
                     <div className='col-3' style={{}}>
-                        <img style={{ width: "150px" }} alt='...' src={exp.urlImage}></img>
+                        <img style={{ width: "150px" }} alt='...' src={exp.imageUrl}></img>
                     </div>
                     <div className='col-5 media' style={{ textAlign: "left" }}>
 
                         <div className="media-heading" >
-                            <h4>{exp.name}</h4>
+                            <h4>{exp.title}</h4>
                         </div>
                     </div>
                     <div className='col-4 media' style={{ textAlign: "left", alignSelf: "flex-end", padingTop: "10px" }}>
@@ -28,14 +28,14 @@ export default function ItemPortifolio({ exp }) {
 
 
                         }}>
-                            <p style={{}}>{exp.periodo}</p>
+                            <p style={{}}>{exp.period_start}</p>
                         </div>
 
                     </div>
                 </div>
                 <div className='row' style={{ padding: "10px" }}>
                     <p>
-                        {exp.sobre}
+                        {exp.description}
                     </p>
                 </div>
                 <hr ></hr>

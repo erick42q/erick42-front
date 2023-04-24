@@ -24,7 +24,7 @@ export default function Home({ user }) {
                 <div className="row">
                     <div className="col-6 offset-3">
                         <p>
-                            Um espaço onde compartilho projetos pessoais, conhecimentos sobre programação, tecnologia e algumas curiosidades a mais, espero que encontre algo que te ajude  assim como me ajudaram anteriormente 😊
+                            Um espaço onde compartilho projetos pessoais, conhecimentos sobre programação, tecnologia e algumas curiosidades a mais, espero que encontre algo que te ajude  assim como me ajudaram anteriormente <span>😊</span>
                         </p>
                     </div>
                 </div>
