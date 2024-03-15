@@ -7,7 +7,7 @@ import About from './pages/about/index'
 import Portfolio from './pages/portfolio/index'
 
 
-import perfilreddit from "./assets/perfilreddit.png"
+import perfilreddit from "./assets/perfilredondo.png"
 
 export default function Rotas() {
     const user = {
@@ -20,8 +20,8 @@ export default function Rotas() {
     return (
         <Routes>
             <Route path="/" exact element={<Home user={user.erick} />} />
-            <Route path="/sobre" exact element={<About user={user.erick} />} />
             <Route path="/portifolio" exact element={<Portfolio />} />
+            <Route path="/contact" exact element={<About user={user.erick} />} />
         </Routes>
     )
 }

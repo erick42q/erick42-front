@@ -4,7 +4,7 @@
     height: 100vh;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
 
@@ -24,7 +24,7 @@
 
 .back-link{
     display: flex;
-    align-items: center;
+    align-items: start;
     margin-top: 40px;
     color: #41414d;
     text-decoration: none;

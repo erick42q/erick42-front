@@ -47,8 +47,8 @@ export default function Header() {
 
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <Item isActive={activeItem === 'home' ? 'active' : ''} >Home</Item>
-                            <Item isActive={activeItem === 'sobre' ? 'active' : ''} >Sobre</Item>
                             <Item isActive={activeItem === 'portifolio' ? 'active' : ''} >Portifolio</Item>
+                            <Item isActive={activeItem === 'Contact' ? 'active' : ''} >Contact</Item>
                             {/* <Item isActive={activeItem === 'login' ? 'active' : ''} >Login</Item> */}
                         </ul>
 

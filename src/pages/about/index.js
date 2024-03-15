@@ -5,7 +5,7 @@ import './styles.css'
 
 
 
-export default function About({ user }) {
+export default function Contact({ user }) {
 
 
     return (
@@ -18,12 +18,10 @@ export default function About({ user }) {
                                 <img className="" src={user.urlPerfil} alt="" width="130" height="130" />
                             </div>
                         </div>
-                        <div className="row">
-                            <h1>{user.first_name}</h1>
-                            <h1>{user.last_name}</h1>
-                        </div>
                     </div>
                 </div>
+
+
 
                 <div className="row">
                     <div className="col-6 offset-3">
@@ -44,7 +42,8 @@ export default function About({ user }) {
                         <p>
                             erick42q@gmail.com<br />
                             <a href='https://linkedin.com/in/erick42/'>https://linkedin.com/in/erick42/</a>
-
+                            <a aria-label="Chat on WhatsApp" href="https://wa.me/5561981786774?text=Ol%C3%A1,%20venho%20do%20seu%20site,%20tenho%20interesse%20de%20...
+"><img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.svg" /></a>
                         </p>
                     </div>
                 </div>
