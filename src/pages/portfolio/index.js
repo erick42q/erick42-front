@@ -2,9 +2,6 @@ import React from 'react'
 import ItemPortifolio from './item_portifolio'
 import './styles.css'
 
-<<<<<<< Updated upstream
-
-=======
 // const baseURL = "http://localhost:8000/brain/experiences/2/";
 
 // export default function Portifolio() {
@@ -31,10 +28,6 @@ import './styles.css'
 // }
 
 export default function Portifolio() {
-
->>>>>>> Stashed changes
-
-export default function Portifolio() {
     const exp = {
         configr: {
             name: 'testeProjeto1',
@@ -59,12 +52,6 @@ export default function Portifolio() {
         <div className='row' style={{ paddingBottom: "100px" }}>
             <div className='col-1'></div>
             <div className='col-10'>
-<<<<<<< Updated upstream
-                <ItemPortifolio exp={exp.configr} />
-
-                <ItemPortifolio exp={exp.gestaods} />
-                <ItemPortifolio exp={exp.teste3} />
-=======
                 <div className='row' style={{ paddingBottom: "100px" }}>
                     <h1>Portifolio:</h1>
                 </div>
@@ -92,11 +79,10 @@ export default function Portifolio() {
                         <a href="https://www.instagram.com/floresta.sounds/" target='blank'>Floresta Sounds</a>
                     </div>
                 </div>
->>>>>>> Stashed changes
-            </div>
+            </div >
             <div className='col-1'></div>
 
-        </div>
+        </div >
 
 
 

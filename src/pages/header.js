@@ -1,12 +1,6 @@
-import { React, useState } from 'react'
+import React, { useState } from 'react'
+
 import { Link } from 'react-router-dom';
-
-
-
-
-
-
-
 
 export default function Header() {
 
@@ -49,7 +43,6 @@ export default function Header() {
                             <Item isActive={activeItem === 'home' ? 'active' : ''} >Home</Item>
                             <Item isActive={activeItem === 'portifolio' ? 'active' : ''} >Portifolio</Item>
                             <Item isActive={activeItem === 'Contact' ? 'active' : ''} >Contact</Item>
-                            {/* <Item isActive={activeItem === 'login' ? 'active' : ''} >Login</Item> */}
                         </ul>
 
                     </div>

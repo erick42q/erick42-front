@@ -21,9 +21,6 @@ export default function Home({ user }) {
                 <div className="row">
                     <div className="col-6 offset-3">
                         <p>
-<<<<<<< Updated upstream
-                            Um espaço onde compartilho projetos pessoais, conhecimentos sobre programação, tecnologia e algumas curiosidades a mais, espero que encontre algo que te ajude  assim como me ajudaram anteriormente 😊
-=======
                             Bem vindo, <br />
                             Eu me chamo
                         </p>
@@ -42,7 +39,6 @@ export default function Home({ user }) {
 
                         <p>Gosto de passar meu tempo pesquisando sobre como alguma ferramenta funciona,
                             implementando algum código, ou colocando algum site no ar.
->>>>>>> Stashed changes
                         </p>
                         <br></br>
                     </div>
