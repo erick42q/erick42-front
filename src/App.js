@@ -17,10 +17,10 @@ function App() {
     <div  >
       <BrowserRouter>
         <Header />
-        <div className="container text-center">
+        <div className="container text-center mt-5 mb-5">
           <Rotas />
-          <Footer />
         </div>
+        <Footer />
       </BrowserRouter>
     </div>
   );

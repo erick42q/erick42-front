@@ -7,7 +7,7 @@ import About from './pages/about/index'
 import Portfolio from './pages/portfolio/index'
 
 
-import perfilreddit from "./assets/perfilredondo.png"
+import perfilreddit from "./assets/perfil_site.png"
 
 export default function Rotas() {
     const user = {

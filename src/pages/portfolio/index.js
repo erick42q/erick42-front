@@ -52,7 +52,7 @@ export default function Portifolio() {
         <div className='row' style={{ paddingBottom: "100px" }}>
             <div className='col-1'></div>
             <div className='col-10'>
-                <div className='row' style={{ paddingBottom: "100px" }}>
+                <div className='row' >
                     <h1>Portifolio:</h1>
                 </div>
                 <div className='row' style={{ paddingBottom: "100px" }}>
