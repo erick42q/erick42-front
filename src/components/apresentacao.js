@@ -6,7 +6,7 @@ import React from 'react'
 export default function Apresentacao({ user }) {
     return (
         <>
-            <div className="row mb-5 align-items-end">
+            <div className="row  align-items-end">
                 <div className="col-4 offset-2 ">
                     <div className='align-text-bottom text-start'>
                         <p style={{ fontFamily: "League Spartan", fontWeight: "lighter" }} >
@@ -19,7 +19,7 @@ export default function Apresentacao({ user }) {
                                     fontFamily: "League Spartan",
                                     fontWeight: "bolder",
                                     color: "#FF9559",
-
+                                    fontSize: "96"
                                 }
                             }>{user.first_name} </h1>
                             <h1 style={{ fontFamily: "League Spartan", fontWeight: "bolder" }}>{user.last_name}</h1>
