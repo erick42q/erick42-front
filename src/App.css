@@ -1,7 +1,10 @@
-
-
+body {background-color: #e0ddda;}
 .container {
   max-width: 1000px;
+  font-size: 32;
+  font-family: "League spartan";
 
-
+}
+h2 {
+  font-weight: bolder;
 }

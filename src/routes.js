@@ -3,25 +3,18 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 import Home from './pages/home/index'
-import About from './pages/about/index'
+import Contact from './pages/contact/index'
 import Portfolio from './pages/portfolio/index'
 
 
-import perfilreddit from "./assets/perfil_site.png"
 
 export default function Rotas() {
-    const user = {
-        erick: {
-            first_name: "Erick",
-            last_name: "Queiroz",
-            urlPerfil: perfilreddit
-        }
-    }
+
     return (
         <Routes>
-            <Route path="/" exact element={<Home user={user.erick} />} />
+            <Route path="/" exact element={<Home />} />
             <Route path="/portifolio" exact element={<Portfolio />} />
-            <Route path="/contact" exact element={<About user={user.erick} />} />
+            <Route path="/contact" exact element={<Contact />} />
         </Routes>
     )
 }

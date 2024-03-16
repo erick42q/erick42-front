@@ -7,7 +7,7 @@ export default function Home({ user }) {
     return (
         <div >
             <div>
-                <div className="row mb-5 align-items-end">
+                {/* <div className="row mb-5 align-items-end">
                     <div className="col-4 offset-2 ">
                         <div className='align-text-bottom text-start'>
                             <p className='align-text-bottom'>
@@ -21,16 +21,16 @@ export default function Home({ user }) {
                     <div className="col-4">
                         <div className="row mb-3 mt-5">
                             <div>
-                                <img className="" src={user.urlPerfil} alt="" width="200px" height="254,55px" />
+                                <img className="" src={user.urlPerfil} alt="" width="200px" />
                             </div>
                         </div>
 
                     </div>
-                </div>
+                </div> */}
 
                 <div className="row">
-                    <div className="col-8 offset-2 text-start">
-                        <h2> Sobre mim:</h2>
+                    <div className="col-8 offset-2 text-start" >
+                        <h2>Profile:</h2>
 
                         <p>Fascinado pelo ramo empresarial, multi-task, alto de data, desenvolvedor de games, vendedor, gestor de trafego e programador.</p>
 

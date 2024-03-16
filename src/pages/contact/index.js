@@ -10,17 +10,6 @@ export default function Contact({ user }) {
     return (
         <div>
             <div>
-                <div className="row mb-5">
-                    <div className="col">
-                        <div className="row mb-3 mt-5">
-                            <div>
-                                <img className="" src={user.urlPerfil} alt="" width="130" height="130" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
 
                 <div className="row">
                     <div className="col-6 offset-3">
