@@ -36,7 +36,7 @@ export default function ItemPortifolio(props) {
                     <div
                         className="d-flex align-items-center"
                         style={{
-                            backgroundColor: "#606582",
+                            backgroundColor: "#ffffff",
                             height: "100%"
                         }} >
                         <div

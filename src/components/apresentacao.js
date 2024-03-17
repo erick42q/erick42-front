@@ -6,7 +6,7 @@ import Header from '../pages/header'
 export default function Apresentacao({ user }) {
     return (
         <>
-            <div className="row  align-items-end">
+            <div className="row  align-items-end pb-2">
                 <div className="col-4 offset-2 ">
                     <div className='align-text-bottom text-start'>
                         <p style={{ fontFamily: "League Spartan", fontWeight: "lighter" }} >
