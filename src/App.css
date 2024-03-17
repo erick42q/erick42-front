@@ -1,4 +1,7 @@
-body {background-color: #44475c;}
+body {
+  background-color: #070707;
+  color: #FFFFFF;
+}
 .container {
   max-width: 1000px;
   font-size: 32;
@@ -7,4 +10,7 @@ body {background-color: #44475c;}
 }
 h2 {
   font-weight: bolder;
+}
+h1 {
+  color: #FFFFFF;
 }

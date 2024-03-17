@@ -26,10 +26,12 @@ function App() {
   return (
     <div  >
       <BrowserRouter>
-        <Header />
+        {/* <Header /> */}
         <div className="container text-center mt-5 mb-5">
           <Apresentacao user={user.erick} />
+          < Header />
           <Rotas />
+          <div className=''></div>
         </div>
         <Footer />
       </BrowserRouter>

@@ -7,8 +7,9 @@ export default function Home({ user }) {
     return (
         <div>
             <div className="row">
+                <h1 style={{ paddingTop: "10px" }}>Profile</h1>
+
                 <div className="col-8 offset-2 text-start" >
-                    <h2>Profile:</h2>
 
                     <p>Sou fascinado pelo ramo empresarial, sou multitarefa, autodidata, desenvolvedor de games, vendedor, gestor de tráfego e programador.</p>
 

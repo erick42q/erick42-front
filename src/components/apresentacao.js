@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import Header from '../pages/header'
 
 
 export default function Apresentacao({ user }) {
@@ -32,8 +32,8 @@ export default function Apresentacao({ user }) {
                             <img className="" src={user.urlPerfil} alt="" width="200px" />
                         </div>
                     </div>
-
                 </div>
+
             </div>
         </>
     )

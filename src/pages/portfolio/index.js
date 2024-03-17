@@ -9,16 +9,12 @@ import './styles.css'
 export default function Portifolio() {
 
     return (
-        <div className='row ' style={{
-            paddingBottom: "10px",
-            // backgroundColor: "#d9d9d9"
-        }
-        }>
+        <div className='row ' style={{}}>
             <div className='col-2'></div>
             <div className='col-8'>
                 {/* Titulo */}
                 <div className='row'   >
-                    <h1 style={{ color: "#212529", paddingTop: "50px" }}>Portifolio:</h1>
+                    <h1 style={{ paddingTop: "10px" }}>Portifolio</h1>
                 </div>
                 {/* items do portifolio */}
                 <div className='row' style={{ paddingBottom: "50px", paddingTop: "50px" }}>
