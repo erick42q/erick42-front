@@ -17,7 +17,7 @@ var project = [{
 }, {
     nome: "erick42.com.br",
     url_img: "https://erick42-front.onrender.com/static/media/perfilreddit.f42e37ca20ecbbf6998a.png",
-    site: "dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    site: "https://erick42-front.onrender.com",
     desc: "dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
 }, {
     nome: "Floresta Sounds",
