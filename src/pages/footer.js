@@ -8,7 +8,7 @@ export default function Footer() {
                 style={{
                     paddingTop: "10px",
                     paddingBottom: "10px",
-                    backgroundColor: "#212529"
+                    backgroundColor: "#191919"
                 }}
             >
                 <div className="col">
