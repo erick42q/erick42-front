@@ -30,6 +30,7 @@ function App() {
         <div className="container text-center mt-5 mb-5">
           <Apresentacao user={user.erick} />
           < Header />
+          <div className='pb-4'></div>
           <Rotas />
           <div className=''></div>
         </div>

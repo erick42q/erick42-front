@@ -4,8 +4,12 @@ export default function Footer() {
     return (
         <div>
             <div
-                className="row footer  text-center"
-                style={{ backgroundColor: "#212529" }}
+                className=" footer  text-center"
+                style={{
+                    paddingTop: "10px",
+                    paddingBottom: "10px",
+                    backgroundColor: "#212529"
+                }}
             >
                 <div className="col">
                     <p className="mt-3 ">

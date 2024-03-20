@@ -31,35 +31,32 @@ var project = [{
 export default function ItemPortifolio(props) {
     return (
         <>
-            <div div className='col' style={{}} >
-                <div className="row text-bg-dark align-items-center p-1 mx-auto " style={{ height: "80%" }}  >
+            <div div className="row  pb-5 " style={{ height: "100%" }} >
+                <div className="col-sm-6  ">
                     <div
-                        className="d-flex align-items-center"
+                        className="d-flex  align-items-center justify-content-center "
                         style={{
                             backgroundColor: "#ffffff",
                             height: "100%"
+
                         }} >
-                        <div
-                            className=""
-                            style={{
-                                // backgroundColor: "#600582",
-                            }} >
-                            <img className=""
-                                src={project[parseInt(props.itemid)].url_img}
-                                alt=""
-                                style={{ width: "100%" }}
-                            ></img>
-                        </div>
+
+                        <img className=""
+                            src={project[parseInt(props.itemid)].url_img}
+                            alt=""
+                            style={{ width: "100%" }}
+                        ></img>
                     </div>
                 </div >
-                <div className='row text-start  '>
+                <div className='  col-sm-6 d-flex  align-items-end c text-start  '>
+                    <div>
+                        <h5 className="card-title ">{project[parseInt(props.itemid)].nome}</h5>
+                        <a className=""
+                            href={project[parseInt(props.itemid)].site}
+                            target='blank'
 
-                    <h5 className="card-title ">{project[parseInt(props.itemid)].nome}</h5>
-                    <a className="col-6 "
-                        href={project[parseInt(props.itemid)].site}
-                        target='blank'
-
-                    >saiba mais..</a>
+                        >saiba mais..</a>
+                    </div>
                 </div>
             </div >
 
