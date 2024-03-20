@@ -10,7 +10,7 @@ import Rotas from './routes'
 import Apresentacao from './components/apresentacao';
 import Footer from './pages/footer'
 
-import perfilreddit from "./assets/perfil_site.png"
+import perfilreddit from "./assets/perfil_site.webp"
 
 
 const user = {

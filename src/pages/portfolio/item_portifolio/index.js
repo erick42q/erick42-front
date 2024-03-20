@@ -1,27 +1,31 @@
 import React from 'react'
 
 import '../styles.css'
+import turnpad from "../../../assets/TurnPadImage.webp"
+import conexaocriativa from "../../../assets/LogoConexãoCriativa.webp"
+import erick from "../../../assets/perfil_site.webp"
+import floresta from "../../../assets/FlorestaSoundsLogo2.webp"
 
 var project = [{
     nome: "Path of the pads",
-    url_img: "https://img.itch.zone/aW1nLzE1MTYwMTQxLnBuZw==/347x500/wqpSl%2B.png",
-    site: "https://noxy42.itch.io/path-of-the-pads",
+    url_img: turnpad,
+    site: "../../../assets/TurnPadImage.webp",
     desc: "dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
 },
 {
     nome: "Conexão Criativa",
-    url_img: "https://conexaocriativadf.com.br/hs-fs/hubfs/Logo%20-%20Conex%C3%A3o%20Criativa%20OFICIAL.png?width=170&height=106&name=Logo%20-%20Conex%C3%A3o%20Criativa%20OFICIAL.png",
+    url_img: conexaocriativa,
     site: "https://conexaocriativadf.com.br",
     desc: "dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
 
 }, {
     nome: "erick42.com.br",
-    url_img: "https://erick42-front.onrender.com/static/media/perfilreddit.f42e37ca20ecbbf6998a.png",
+    url_img: erick,
     site: "https://erick42-front.onrender.com",
     desc: "dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
 }, {
     nome: "Floresta Sounds",
-    url_img: "https://media-gig4-1.cdn.whatsapp.net/v/t61.24694-24/427746211_334078232453945_2218494297382515589_n.jpg?ccb=11-4&oh=01_AdRJcjoLRm3ACKdl6UCcUe71-BR4sNdnj76QB3KgLjpk6Q&oe=66032B1C&_nc_sid=e6ed6c&_nc_cat=106",
+    url_img: floresta,
     site: "https://www.instagram.com/floresta.sounds/",
     desc: "dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
 }
